@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class Uzd1 {
 
 	public static void main(String[] args) {
-		Scanner skaiciai = new Scanner(System.in);
-		double a;
-		System.out.println("Iveskite skaiciu a = ");
+		Scanner skaiciai = new Scanner(System.in); //sukuriamas skaneris
+		double a; //aprasomas kintamasis bei jo tipas
+		System.out.println("Iveskite skaiciu a = "); //
 		a = skaiciai.nextInt();
 		skaiciai.close();
 		if (a > 0) {
