@@ -1,17 +1,19 @@
 package sakotieji_algoritmai_if;
+
 import java.util.Scanner;
+
 public class Uzd1 {
 
 	public static void main(String[] args) {
-		Scanner skaiciai = new Scanner (System.in);
+		Scanner skaiciai = new Scanner(System.in);
 		double a, atsakymas;
 		System.out.println("Iveskite skaiciu a = ");
 		a = skaiciai.nextInt();
 		if (a > 0) {
 			System.out.println("Skaicius yra teigiamas, tau pasiseke :)");
-		}else {
+		} else {
 			System.out.println("Skaicius yra neigiamas, tau nepasiseke :(");
 		}
-		}
-	
+	}
+
 }
