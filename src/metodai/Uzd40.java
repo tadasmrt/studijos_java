@@ -1,9 +1,14 @@
 package metodai;
 
+import java.util.Scanner;
+
 public class Uzd40 {
 
 	public static void main(String[] args) {
-		printTriangle(8);
+		Scanner skaitytuvas = new Scanner(System.in);
+		System.out.print("Kokio aukscio eglute reikalinga: ");
+		int a = skaitytuvas.nextInt();
+		printTriangle(a);
 	}
 	
 	public static void printTriangle(int size) {
