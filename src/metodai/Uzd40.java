@@ -17,7 +17,13 @@ public class Uzd40 {
 		}
 	}
 	
-	public static void printLine(int star, int empty) {
+	public static void printStem(int size) { 
+		for(int i = 1; i <= size; i++) {
+			printLine(i / 2 - 1, 3);
+		}
+	}
+	
+	public static void printLine (int star, int empty) {
 		for(int i = 1; i <= empty; i++) {
 			System.out.print(" ");
 		}
@@ -27,10 +33,6 @@ public class Uzd40 {
 		}
 		System.out.println();
 		
-		public static void printKamienas(int star, int empty) { 
-			//logiskai gal cia - isspausdinus eglute, spausdinam kamiena//
-			
 		}
+			
 	}
-	
-}
