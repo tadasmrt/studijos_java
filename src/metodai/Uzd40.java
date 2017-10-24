@@ -26,6 +26,11 @@ public class Uzd40 {
 			System.out.print("*");
 		}
 		System.out.println();
+		
+		public static void printKamienas(int star, int empty) { 
+			//logiskai gal cia - isspausdinus eglute, spausdinam kamiena//
+			
+		}
 	}
 	
 }
